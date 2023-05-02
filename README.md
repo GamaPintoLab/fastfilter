@@ -2,6 +2,18 @@
 
 Fast, multi-threaded filtering of FASTQ files with adjustable parameters written in Python.
 
+---
+
+Author: [Gil Poiares-Oliveira](mailto:gpo@ciencias.ulisboa.pt) |
+PI: [Margarida Gama-Carvalho](mailto:mhcarvalho@ciencias.ulisboa.pt)
+
+[RNA Systems Biology Lab](https://rnasysbio.rd.ciencias.ulisboa.pt)\
+BioISI - Biolosystems and Integrative Sciences Institute, Faculty of Sciences, University of Lisbon
+
+---
+
+## Introduction
+
 FastFilter allows you to filter out:
 * Homopolymers
 * Sequences below a given quality threshold
@@ -15,7 +27,7 @@ And generate CSV reports to add to your paper.
 FastFilter can be run in "guided mode" by not specifying any runtime parameters,
 i.e. just running:
 ```sh
-fastfilter.py
+fastfilter
 ```
 For this mode to run properly, you have to first assure:
 1. Projects are separated by folder and are all contained in the folder
@@ -38,7 +50,7 @@ and `-o` arguments, respectively.
 
 To list all arguments available, run:
 ```sh
-fastfilter.py -h
+fastfilter -h
 ```
 
 `-l` 	Length threshold for sequence
@@ -65,14 +77,10 @@ pair of pair-ended FASTQ files.
 
 Filter sequences with quality score lower than 50:
 ```sh
-fastfilter.py -s 50
+fastfilter -s 50
 ```
-or:
-```sh
-fastfilter.py --min-score 50
-```
----
+
 Place output files in folder with path `/foo/bar/fastfilter-output`:
 ```sh
-fastfilter.py -o "/foo/bar/fastfilter-output"
+fastfilter -o "/foo/bar/fastfilter-output"
 ```
