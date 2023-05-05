@@ -8,7 +8,7 @@ Author: [Gil Poiares-Oliveira](mailto:gpo@ciencias.ulisboa.pt) |
 PI: [Margarida Gama-Carvalho](mailto:mhcarvalho@ciencias.ulisboa.pt)
 
 [RNA Systems Biology Lab](https://rnasysbio.rd.ciencias.ulisboa.pt)\
-BioISI - Biolosystems and Integrative Sciences Institute, Faculty of Sciences, University of Lisbon
+BioISI - Biosystems and Integrative Sciences Institute, Faculty of Sciences, University of Lisbon
 
 ---
 
